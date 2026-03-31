@@ -1203,11 +1203,11 @@
   "name": "TFGaming",
   "type": "Esport",
   "logo": "logos/TF.png",
-  "openDemo": "http://tfgaming.net/?demo=true",
-  "demoUrl": "http://tfgaming.net/?demo=true",
+  "openDemo": "https://tfesports.net/",
+  "demoUrl": "https://tfesports.net/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "帐号：tfdemo01｜密码：jhpnm1"
+  "passwordNote": " username : tfdemo01 password: jhpnm1"
 },
 {
   "name": "AOG",

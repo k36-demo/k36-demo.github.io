@@ -12,6 +12,7 @@
       --accent:#00f5e0;
       --glow:0 6px 20px rgba(0,245,224,0.08);
     }
+
     html,body{
       height:100%;
       margin:0;
@@ -19,23 +20,34 @@
       color:#eee;
       font-family:Inter,Segoe UI,Roboto,Arial;
     }
-    .wrap{display:flex;min-height:100vh;}
+
+    .wrap{
+      display:flex;
+      min-height:100vh;
+    }
+
     .sidebar{
       width:270px;
       background:#0b0b0d;
       padding:22px;
       border-right:1px solid rgba(255,255,255,0.03);
       position:fixed;
-      top:0; bottom:0;
+      top:0;
+      bottom:0;
       overflow:auto;
     }
+
     .logo-title{
       color:var(--accent);
       font-weight:700;
       margin-bottom:14px;
       font-size:18px;
     }
-    .search{margin-bottom:18px}
+
+    .search{
+      margin-bottom:18px;
+    }
+
     .search input{
       width:100%;
       padding:10px;
@@ -45,6 +57,7 @@
       color:#fff;
       box-shadow:inset 0 1px 0 rgba(255,255,255,0.02);
     }
+
     .category{
       margin:8px 0;
       padding:8px;
@@ -52,7 +65,12 @@
       cursor:pointer;
       color:var(--muted);
     }
-    .category:hover{background:#0e1113;color:#fff}
+
+    .category:hover{
+      background:#0e1113;
+      color:#fff;
+    }
+
     .category.active{
       background:linear-gradient(90deg,#06121a66,transparent);
       box-shadow:var(--glow);
@@ -60,13 +78,20 @@
       border-left:3px solid var(--accent);
       padding-left:12px;
     }
-    .main{margin-left:270px;padding:28px;flex:1}
+
+    .main{
+      margin-left:270px;
+      padding:28px;
+      flex:1;
+    }
+
     .tools{
       display:flex;
       gap:12px;
       align-items:center;
       margin-bottom:18px;
     }
+
     .button{
       background:linear-gradient(90deg,#0fffdc11,#00a2ff11);
       border:1px solid rgba(0,165,200,0.08);
@@ -76,11 +101,13 @@
       cursor:pointer;
       box-shadow:0 6px 28px rgba(0,165,200,0.06);
     }
+
     .grid{
       display:grid;
       grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
       gap:18px;
     }
+
     .card{
       background:var(--card);
       padding:14px;
@@ -91,10 +118,12 @@
       flex-direction:column;
       align-items:center;
     }
+
     .card:hover{
       transform:translateY(-6px);
       box-shadow:0 20px 40px rgba(0,0,0,0.6),0 0 24px rgba(0,245,224,0.06);
     }
+
     .logo-wrap{
       width:180px;
       height:80px;
@@ -106,12 +135,25 @@
       margin-bottom:12px;
       overflow:hidden;
     }
+
     .logo-wrap img{
       max-width:100%;
       max-height:100%;
     }
-    .title{font-weight:700;margin-bottom:8px;text-align:center}
-    .type{font-size:12px;color:var(--muted);margin-bottom:10px}
+
+    .title{
+      font-weight:700;
+      margin-bottom:8px;
+      text-align:center;
+    }
+
+    .type{
+      font-size:12px;
+      color:var(--muted);
+      margin-bottom:10px;
+      text-align:center;
+    }
+
     .footer{
       margin-top:auto;
       display:flex;
@@ -119,6 +161,7 @@
       width:100%;
       justify-content:center;
     }
+
     .demo-btn{
       background:#0b0f16;
       color:#fff;
@@ -129,10 +172,89 @@
       box-shadow:0 6px 22px rgba(0,0,0,0.6);
       transition:all .12s;
     }
+
     .demo-btn.glow{
       box-shadow:0 8px 36px rgba(0,245,224,0.18),0 0 12px rgba(0,245,224,0.08);
       background:linear-gradient(90deg,#021a16,#003b37);
     }
+
+    .modal{
+      position:fixed;
+      inset:0;
+      background:rgba(0,0,0,0.58);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      z-index:9999;
+      padding:20px;
+    }
+
+    .modal.hidden{
+      display:none;
+    }
+
+    .modal-card{
+      width:min(520px, 92vw);
+      background:#111418;
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:20px;
+      box-shadow:0 20px 60px rgba(0,0,0,0.6);
+      padding:22px 22px 16px;
+    }
+
+    .modal-header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:16px;
+      gap:12px;
+    }
+
+    .modal-title{
+      font-size:22px;
+      font-weight:700;
+      color:#f4f4f4;
+      word-break:break-word;
+    }
+
+    .modal-close{
+      background:transparent;
+      border:0;
+      color:#aaa;
+      font-size:22px;
+      cursor:pointer;
+      line-height:1;
+    }
+
+    .modal-close:hover{
+      color:#fff;
+    }
+
+    .cred-row{
+      display:grid;
+      grid-template-columns:110px 1fr;
+      gap:12px;
+      padding:12px 0;
+      border-bottom:1px solid rgba(255,255,255,0.06);
+      align-items:start;
+    }
+
+    .cred-row:last-child{
+      border-bottom:0;
+    }
+
+    .cred-label{
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .cred-value{
+      color:#fff;
+      font-size:15px;
+      word-break:break-word;
+      white-space:pre-wrap;
+    }
+
     @media(max-width:900px){
       .sidebar{display:none}
       .main{margin-left:0}
@@ -144,11 +266,12 @@
   <div class="wrap">
     <aside class="sidebar">
       <div class="logo-title">Game Demo Showcase</div>
-      <div class="search"><input id="searchInput" placeholder="搜尋遊戲商或關鍵字..." /></div>
+      <div class="search">
+        <input id="searchInput" placeholder="搜尋遊戲商或關鍵字..." />
+      </div>
       <div id="categories"></div>
       <div style="height:32px"></div>
-      <div style="font-size:12px;color:#7f8a8c">
-      </div>
+      <div style="font-size:12px;color:#7f8a8c"></div>
     </aside>
 
     <main class="main">
@@ -161,15 +284,43 @@
     </main>
   </div>
 
-<script>
+  <!-- Credential Modal -->
+  <div id="credModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title" id="modalVendorName">帳密資訊</div>
+        <button class="modal-close" id="closeModalBtn" aria-label="Close">✕</button>
+      </div>
 
+      <div class="cred-row">
+        <span class="cred-label">需要密碼</span>
+        <span class="cred-value" id="modalNeedsPassword">-</span>
+      </div>
+
+      <div class="cred-row">
+        <span class="cred-label">帳號</span>
+        <span class="cred-value" id="modalUsername">-</span>
+      </div>
+
+      <div class="cred-row">
+        <span class="cred-label">密碼</span>
+        <span class="cred-value" id="modalPassword">-</span>
+      </div>
+
+      <div class="cred-row" id="modalNoteRow">
+        <span class="cred-label">備註</span>
+        <span class="cred-value" id="modalNote">-</span>
+      </div>
+    </div>
+  </div>
+
+<script>
 /* 分类排序 */
 const CATEGORY_ORDER = ['All','Slot','Live','Sport','Fishing','Card','Lottery','Cockfight','Esport','Virtual'];
 
-/* 载入 vendors.json */
 async function loadVendors(){
   try {
-    const res = await fetch('./vendors/vendors.json', {cache:'no-store'});
+    const res = await fetch('./vendors/vendors.json', { cache: 'no-store' });
     if(!res.ok) throw new Error('vendors.json not found: ' + res.status);
     return await res.json();
   } catch (e) {
@@ -181,20 +332,128 @@ async function loadVendors(){
 let ALL_VENDORS = [];
 let ACTIVE_CATEGORY = 'All';
 
+/* 嘗試從 passwordNote 拆出帳號 / 密碼 */
+function parseCredentialInfo(v){
+  let username = (v.username || '').trim();
+  let password = (v.password || '').trim();
+  let note = (v.passwordNote || '').trim();
+
+  if (!v.needsPassword) {
+    return {
+      username: '不需要',
+      password: '不需要',
+      note: ''
+    };
+  }
+
+  if (username || password) {
+    return {
+      username: username || '未提供',
+      password: password || '未提供',
+      note
+    };
+  }
+
+  if (!note) {
+    return {
+      username: '未提供',
+      password: '未提供',
+      note: ''
+    };
+  }
+
+  const patterns = [
+    /^(?<username>[^\/\s]+)\/(?<password>.+)$/i,
+    /^A:(?<username>[^\/]+)\/P:(?<password>.+)$/i,
+    /帳號[:：]?\s*(?<username>\S+)\s*密碼[:：]?\s*(?<password>\S+)/i,
+    /帐号[:：]?\s*(?<username>\S+)\s*密码[:：]?\s*(?<password>\S+)/i,
+    /用户名[:：]?\s*(?<username>\S+)\s*密码[:：]?\s*(?<password>\S+)/i,
+    /username\s*[:：]?\s*(?<username>\S+)\s*password\s*[:：]?\s*(?<password>\S+)/i,
+    /user\s*[:：]?\s*(?<username>\S+)\s*password\s*[:：]?\s*(?<password>\S+)/i,
+    /login\s*id\s*[:：]?\s*(?<username>\S+)\s*\/\s*password\s*[:：]?\s*(?<password>\S+)/i,
+    /account\s*[:：]?\s*(?<username>\S+)\s*\/?\s*password\s*[:：]?\s*(?<password>\S+)/i
+  ];
+
+  for (const pattern of patterns) {
+    const match = note.match(pattern);
+    if (match && match.groups) {
+      return {
+        username: (match.groups.username || '').trim() || '未提供',
+        password: (match.groups.password || '').trim() || '未提供',
+        note: ''
+      };
+    }
+  }
+
+  const simpleNote = note.toLowerCase();
+  const looksLikeSinglePassword =
+    !simpleNote.includes('帳') &&
+    !simpleNote.includes('号') &&
+    !simpleNote.includes('碼') &&
+    !simpleNote.includes('码') &&
+    !simpleNote.includes('user') &&
+    !simpleNote.includes('account') &&
+    !simpleNote.includes('login') &&
+    !simpleNote.includes('a:') &&
+    !simpleNote.includes('p:') &&
+    !simpleNote.includes('/');
+
+  if (looksLikeSinglePassword) {
+    return {
+      username: '未提供',
+      password: note,
+      note: ''
+    };
+  }
+
+  return {
+    username: '未提供',
+    password: '未提供',
+    note
+  };
+}
+
+function openCredModal(v){
+  const modal = document.getElementById('credModal');
+  const parsed = parseCredentialInfo(v);
+
+  document.getElementById('modalVendorName').textContent = `${v.name} 顯示`;
+  document.getElementById('modalNeedsPassword').textContent = v.needsPassword ? '需要' : '不需要';
+  document.getElementById('modalUsername').textContent = parsed.username;
+  document.getElementById('modalPassword').textContent = parsed.password;
+
+  const noteRow = document.getElementById('modalNoteRow');
+  const noteEl = document.getElementById('modalNote');
+
+  if (parsed.note) {
+    noteEl.textContent = parsed.note;
+    noteRow.style.display = 'grid';
+  } else {
+    noteEl.textContent = '';
+    noteRow.style.display = 'none';
+  }
+
+  modal.classList.remove('hidden');
+}
+
+function closeCredModal(){
+  document.getElementById('credModal').classList.add('hidden');
+}
+
 /* 分类栏 */
 function renderCategories(vendors){
-  const cats = Array.from(new Set(vendors.map(v=>v.type))).sort();
+  const cats = Array.from(new Set(vendors.map(v => v.type))).sort();
   const container = document.getElementById('categories');
   container.innerHTML = '';
 
-  CATEGORY_ORDER.forEach(c=>{
-    if(c==='All' || cats.includes(c)){
+  CATEGORY_ORDER.forEach(c => {
+    if(c === 'All' || cats.includes(c)){
       const d = document.createElement('div');
-      d.className = 'category' + (c===ACTIVE_CATEGORY ? ' active' : '');
+      d.className = 'category' + (c === ACTIVE_CATEGORY ? ' active' : '');
       d.textContent = c === 'All' ? '🌐 全部' : c;
       d.onclick = () => {
         ACTIVE_CATEGORY = c;
-        document.querySelectorAll('.category').forEach(el=>el.classList.remove('active'));
+        document.querySelectorAll('.category').forEach(el => el.classList.remove('active'));
         d.classList.add('active');
         filterAndRender();
       };
@@ -206,10 +465,10 @@ function renderCategories(vendors){
 /* 卡片生成 */
 function makeCard(v){
   const div = document.createElement('div');
-  div.className='card';
+  div.className = 'card';
 
   const logo = document.createElement('div');
-  logo.className='logo-wrap';
+  logo.className = 'logo-wrap';
 
   const img = document.createElement('img');
   img.alt = v.name;
@@ -224,50 +483,34 @@ function makeCard(v){
       </svg>`;
     this.src = 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
   };
+
   logo.appendChild(img);
 
   const title = document.createElement('div');
-  title.className='title';
+  title.className = 'title';
   title.textContent = v.name;
 
   const type = document.createElement('div');
-  type.className='type';
+  type.className = 'type';
   type.textContent = v.type;
 
   const footer = document.createElement('div');
-  footer.className='footer';
+  footer.className = 'footer';
 
-  /* Open Demo 按钮 */
   const btnDemo = document.createElement('button');
-  btnDemo.className='demo-btn glow';
-  btnDemo.textContent='Open Demo';
-  btnDemo.onclick = ()=>{ 
+  btnDemo.className = 'demo-btn glow';
+  btnDemo.textContent = 'Open Demo';
+  btnDemo.onclick = () => {
     const url = v.openDemo || v.demoUrl || '';
-    if(url) window.open(url,'_blank');
+    if (url) window.open(url, '_blank');
     else alert('Demo URL 未設定');
   };
 
-  /* Show Cred 按钮 (方案 1) */
   const btnCred = document.createElement('button');
-  btnCred.className='demo-btn';
-  btnCred.textContent='Show Cred';
-  btnCred.onclick = ()=>{
-    if(!v.needsPassword){
-      alert('不需要帐号密码');
-      return;
-    }
-
-    const acc = v.username || '未提供';
-    const pwd = v.password || '未提供';
-    const note = v.passwordNote || '';
-
-    const msg =
-`需要密码：
-帳號：${acc}
-密碼：${pwd}
-備註：${note}`;
-
-    alert(msg);
+  btnCred.className = 'demo-btn';
+  btnCred.textContent = 'Show Cred';
+  btnCred.onclick = () => {
+    openCredModal(v);
   };
 
   footer.appendChild(btnDemo);
@@ -285,21 +528,22 @@ function makeCard(v){
 function renderGrid(list){
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
-  list.forEach(v=>grid.appendChild(makeCard(v)));
+  list.forEach(v => grid.appendChild(makeCard(v)));
   document.getElementById('resultCount').textContent = `显示 ${list.length} 个厂商`;
 }
 
-/* 搜寻 + 分类 */
+/* 搜尋 + 分類 */
 function filterAndRender(){
   const keyword = document.getElementById('searchInput').value.trim().toLowerCase();
   let list = ALL_VENDORS.slice();
 
-  if(ACTIVE_CATEGORY !== 'All')
-    list = list.filter(v=>v.type === ACTIVE_CATEGORY);
+  if (ACTIVE_CATEGORY !== 'All') {
+    list = list.filter(v => v.type === ACTIVE_CATEGORY);
+  }
 
-  if(keyword){
-    list = list.filter(v=>{
-      return (v.name||'').toLowerCase().includes(keyword);
+  if (keyword) {
+    list = list.filter(v => {
+      return (v.name || '').toLowerCase().includes(keyword);
     });
   }
 
@@ -309,8 +553,8 @@ function filterAndRender(){
 /* 初始化 */
 async function init(){
   const vendors = await loadVendors();
-  ALL_VENDORS = vendors.map(v=>{
-    v.type = (v.type||'Other').trim();
+  ALL_VENDORS = vendors.map(v => {
+    v.type = (v.type || 'Other').trim();
     return v;
   });
 
@@ -320,9 +564,21 @@ async function init(){
 
 document.getElementById('searchInput').addEventListener('input', filterAndRender);
 document.getElementById('refreshBtn').addEventListener('click', init);
+document.getElementById('closeModalBtn').addEventListener('click', closeCredModal);
+
+document.getElementById('credModal').addEventListener('click', (e) => {
+  if (e.target.id === 'credModal') {
+    closeCredModal();
+  }
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeCredModal();
+  }
+});
 
 init();
-
 </script>
 </body>
 </html>

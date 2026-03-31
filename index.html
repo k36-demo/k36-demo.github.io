@@ -11,16 +11,12 @@
       --bg-soft:#0b0c10;
       --sidebar:#0b0b0d;
       --card:#131316;
-      --card-2:#171a20;
       --muted:#8b8c90;
       --text:#f3f5f7;
       --accent:#00f5e0;
       --accent-2:#5af7ff;
-      --danger:#ff6b81;
       --border:rgba(255,255,255,0.06);
-      --border-strong:rgba(255,255,255,0.12);
       --glow:0 10px 30px rgba(0,245,224,0.10);
-      --glow-strong:0 18px 50px rgba(0,245,224,0.16);
       --shadow:0 18px 50px rgba(0,0,0,0.45);
     }
 
@@ -51,7 +47,6 @@
       min-height:100vh;
     }
 
-    /* Sidebar */
     .sidebar{
       width:270px;
       background:
@@ -67,21 +62,22 @@
     }
 
     .brand{
-      margin-bottom:18px;
+      margin-bottom:14px;
+      padding-top:2px;
     }
 
     .logo-title{
       color:var(--accent);
       font-weight:800;
       letter-spacing:.2px;
-      margin-bottom:8px;
+      margin-bottom:6px;
       font-size:20px;
     }
 
     .brand-sub{
       font-size:12px;
-      color:#8c9398;
-      line-height:1.6;
+      color:#7f878d;
+      line-height:1.55;
     }
 
     .search{
@@ -158,7 +154,6 @@
       line-height:1.7;
     }
 
-    /* Main */
     .main{
       margin-left:270px;
       padding:28px;
@@ -166,12 +161,12 @@
     }
 
     .hero{
-      margin-bottom:22px;
-      padding:26px;
-      border-radius:24px;
+      margin-bottom:18px;
+      padding:20px 24px;
+      border-radius:22px;
       background:
-        radial-gradient(circle at top left, rgba(0,245,224,0.12), transparent 30%),
-        radial-gradient(circle at 85% 10%, rgba(90,247,255,0.08), transparent 22%),
+        radial-gradient(circle at top left, rgba(0,245,224,0.10), transparent 28%),
+        radial-gradient(circle at 85% 10%, rgba(90,247,255,0.06), transparent 20%),
         linear-gradient(135deg, #11141a 0%, #0b0d11 100%);
       border:1px solid rgba(255,255,255,0.06);
       box-shadow:var(--shadow), var(--glow);
@@ -198,8 +193,8 @@
     }
 
     .hero h1{
-      margin:0 0 10px;
-      font-size:32px;
+      margin:0 0 8px;
+      font-size:28px;
       line-height:1.05;
       letter-spacing:-0.03em;
       font-weight:800;
@@ -208,30 +203,30 @@
     .hero p{
       margin:0;
       color:#98a0a6;
-      font-size:14px;
-      line-height:1.7;
-      max-width:720px;
+      font-size:13px;
+      line-height:1.65;
+      max-width:680px;
     }
 
     .hero-chip{
       display:inline-flex;
       align-items:center;
       gap:8px;
-      padding:10px 14px;
+      padding:9px 13px;
       border-radius:999px;
-      border:1px solid rgba(0,245,224,0.14);
-      background:rgba(0,245,224,0.06);
+      border:1px solid rgba(0,245,224,0.12);
+      background:rgba(0,245,224,0.05);
       color:var(--accent);
-      font-size:13px;
+      font-size:12px;
       white-space:nowrap;
-      box-shadow:0 10px 24px rgba(0,245,224,0.08);
+      box-shadow:0 8px 20px rgba(0,245,224,0.06);
     }
 
     .tools{
       display:flex;
       gap:12px;
       align-items:center;
-      margin-bottom:18px;
+      margin-bottom:20px;
       flex-wrap:wrap;
     }
 
@@ -269,22 +264,21 @@
     .grid{
       display:grid;
       grid-template-columns:repeat(auto-fill,minmax(270px,1fr));
-      gap:20px;
+      gap:22px;
     }
 
-    /* Card */
     .card{
       background:
         linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015)),
         var(--card);
-      padding:16px;
+      padding:18px 16px 16px;
       border-radius:20px;
       border:1px solid rgba(255,255,255,0.05);
       transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
       display:flex;
       flex-direction:column;
       align-items:center;
-      min-height:270px;
+      min-height:282px;
       position:relative;
       overflow:hidden;
       box-shadow:0 12px 30px rgba(0,0,0,0.22);
@@ -324,7 +318,7 @@
 
     .logo-wrap{
       width:190px;
-      height:90px;
+      height:84px;
       border-radius:14px;
       background:
         linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015)),
@@ -332,7 +326,7 @@
       display:flex;
       align-items:center;
       justify-content:center;
-      margin-bottom:14px;
+      margin-bottom:16px;
       overflow:hidden;
       border:1px solid rgba(255,255,255,0.05);
       box-shadow:inset 0 1px 0 rgba(255,255,255,0.03);
@@ -346,10 +340,10 @@
 
     .title{
       font-weight:800;
-      margin-bottom:10px;
+      margin-bottom:12px;
       text-align:center;
       word-break:break-word;
-      font-size:18px;
+      font-size:17px;
       line-height:1.35;
       letter-spacing:.1px;
     }
@@ -362,13 +356,13 @@
       border-radius:999px;
       font-size:12px;
       color:var(--accent);
-      background:rgba(0,245,224,0.08);
-      border:1px solid rgba(0,245,224,0.14);
-      margin-bottom:14px;
+      background:rgba(0,245,224,0.07);
+      border:1px solid rgba(0,245,224,0.13);
+      margin-bottom:18px;
       text-align:center;
       max-width:100%;
       word-break:break-word;
-      box-shadow:0 10px 22px rgba(0,245,224,0.06);
+      box-shadow:0 8px 18px rgba(0,245,224,0.05);
     }
 
     .footer{
@@ -378,6 +372,7 @@
       width:100%;
       justify-content:center;
       flex-wrap:wrap;
+      padding-top:2px;
     }
 
     .demo-btn{
@@ -410,7 +405,6 @@
       color:#dce3e7;
     }
 
-    /* Modal */
     .modal{
       position:fixed;
       inset:0;
@@ -428,14 +422,14 @@
     }
 
     .modal-card{
-      width:min(620px, 100%);
+      width:min(600px, 100%);
       background:
-        radial-gradient(circle at top left, rgba(0,245,224,0.08), transparent 28%),
-        linear-gradient(180deg,#13171d,#0c1015);
+        radial-gradient(circle at top left, rgba(0,245,224,0.07), transparent 26%),
+        linear-gradient(180deg,#12171d,#0b1015);
       border:1px solid rgba(255,255,255,0.08);
       border-radius:24px;
-      box-shadow:0 24px 70px rgba(0,0,0,0.65), 0 0 30px rgba(0,245,224,0.08);
-      padding:22px;
+      box-shadow:0 24px 70px rgba(0,0,0,0.65), 0 0 30px rgba(0,245,224,0.07);
+      padding:22px 22px 20px;
       position:relative;
       overflow:hidden;
     }
@@ -465,7 +459,7 @@
     }
 
     .modal-title{
-      font-size:26px;
+      font-size:24px;
       font-weight:800;
       color:#f5f7f8;
       word-break:break-word;
@@ -491,17 +485,16 @@
 
     .cred-row{
       display:grid;
-      grid-template-columns:120px 1fr;
-      gap:12px;
-      padding:12px 0;
-      align-items:start;
+      grid-template-columns:110px 1fr;
+      gap:14px;
+      padding:10px 0;
+      align-items:center;
     }
 
     .cred-label{
       color:#8e969d;
       font-size:13px;
       letter-spacing:.2px;
-      padding-top:9px;
     }
 
     .cred-value{
@@ -509,17 +502,17 @@
       font-size:15px;
       word-break:break-word;
       white-space:pre-wrap;
-      background:linear-gradient(180deg,#0e1318,#0a0e12);
+      background:linear-gradient(180deg,#0d1217,#090d12);
       border:1px solid rgba(255,255,255,0.06);
       border-radius:14px;
-      padding:10px 12px;
+      padding:11px 12px;
       box-shadow:inset 0 1px 0 rgba(255,255,255,0.02);
     }
 
     .cred-actions{
       display:flex;
       gap:10px;
-      margin-top:18px;
+      margin-top:16px;
       flex-wrap:wrap;
     }
 
@@ -551,20 +544,21 @@
     @media(max-width:900px){
       .sidebar{display:none}
       .main{margin-left:0}
-      .hero h1{font-size:28px}
+      .hero h1{font-size:24px}
     }
 
     @media(max-width:640px){
       .main{padding:18px}
-      .hero{padding:20px}
-      .hero h1{font-size:24px}
+      .hero{padding:18px 18px}
+      .hero h1{font-size:22px}
       .grid{grid-template-columns:1fr}
       .cred-row{
         grid-template-columns:1fr;
         gap:6px;
+        align-items:start;
       }
       .modal-title{
-        font-size:22px;
+        font-size:21px;
       }
     }
   </style>
@@ -588,8 +582,7 @@
       <div id="categories"></div>
 
       <div class="sidebar-foot">
-        Fast access for demo browsing, credential lookup, and vendor navigation.  
-        Dark mode by default, because bright white dashboards have committed enough crimes.
+        Fast access for demos, credentials, and vendor navigation.
       </div>
     </aside>
 
@@ -600,7 +593,6 @@
             <h1>Gaming Demo Showcase</h1>
             <p>
               Explore vendor demos, jump into categories, and quickly check login credentials when required.
-              Clean, fast, and built for less clicking around like a lost pigeon.
             </p>
           </div>
           <div class="hero-chip">Neon Dark Interface</div>
@@ -618,7 +610,6 @@
     </main>
   </div>
 
-  <!-- Credential Modal -->
   <div id="credModal" class="modal hidden" aria-hidden="true">
     <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalVendorName">
       <div class="modal-header">
@@ -654,15 +645,12 @@
   </div>
 
 <script>
-/* 分类排序 */
 const CATEGORY_ORDER = ['All','Slot','Live','Sport','Fishing','Card','Lottery','Cockfight','Esport','Virtual'];
 
-/* 全局状态 */
 let ALL_VENDORS = [];
 let ACTIVE_CATEGORY = 'All';
 let CURRENT_CRED = { username: '', password: '' };
 
-/* 载入 vendors.json */
 async function loadVendors(){
   try {
     const res = await fetch('./vendors/vendors.json', { cache: 'no-store' });
@@ -676,13 +664,18 @@ async function loadVendors(){
   }
 }
 
-/* 安全字串 */
 function safeText(value, fallback = ''){
   if(value === null || value === undefined) return fallback;
   return String(value).trim();
 }
 
-/* 解析帐密资料 */
+function formatTypeLabel(type){
+  const raw = safeText(type, 'Other');
+  if (!raw) return 'Other';
+  if (raw.includes(',')) return 'Multi Category';
+  return raw;
+}
+
 function parseCredentialInfo(v){
   const rawUsername = safeText(v.username);
   const rawPassword = safeText(v.password);
@@ -729,12 +722,13 @@ function parseCredentialInfo(v){
     }
   }
 
-  const isSingleToken =
-    !/\s/.test(note) &&
-    !/[帳账用密useraccountloginA:P:]/i.test(note) &&
-    note.length > 0;
+  const looksLikeSinglePassword =
+    !note.includes(' ') &&
+    !note.includes('/') &&
+    !note.includes(':') &&
+    !/[帳號帐号用户名密碼密码loginuseraccount]/i.test(note);
 
-  if (isSingleToken) {
+  if (looksLikeSinglePassword) {
     return {
       username: '未提供',
       password: note,
@@ -749,7 +743,6 @@ function parseCredentialInfo(v){
   };
 }
 
-/* 分类栏 */
 function renderCategories(vendors){
   const cats = Array.from(new Set(
     vendors
@@ -778,7 +771,6 @@ function renderCategories(vendors){
   });
 }
 
-/* 开启 modal */
 function openCredModal(v){
   const modal = document.getElementById('credModal');
   if (!modal) return;
@@ -804,7 +796,6 @@ function openCredModal(v){
   modal.setAttribute('aria-hidden', 'false');
 }
 
-/* 关闭 modal */
 function closeCredModal(){
   const modal = document.getElementById('credModal');
   if (!modal) return;
@@ -813,7 +804,6 @@ function closeCredModal(){
   modal.setAttribute('aria-hidden', 'true');
 }
 
-/* 复制文字 */
 async function copyText(text){
   const value = safeText(text);
   if (!value || value === '未提供' || value === '不需要') {
@@ -830,7 +820,6 @@ async function copyText(text){
   }
 }
 
-/* 卡片生成 */
 function makeCard(v){
   const div = document.createElement('div');
   div.className = 'card';
@@ -864,7 +853,7 @@ function makeCard(v){
 
   const type = document.createElement('div');
   type.className = 'type';
-  type.textContent = safeText(v.type, 'Other');
+  type.textContent = formatTypeLabel(v.type);
 
   const footer = document.createElement('div');
   footer.className = 'footer';
@@ -899,7 +888,6 @@ function makeCard(v){
   return div;
 }
 
-/* 渲染 grid */
 function renderGrid(list){
   const grid = document.getElementById('grid');
   const resultCount = document.getElementById('resultCount');
@@ -928,7 +916,6 @@ function renderGrid(list){
   resultCount.textContent = `显示 ${list.length} 个厂商`;
 }
 
-/* 搜寻 + 分类 */
 function filterAndRender(){
   const searchInput = document.getElementById('searchInput');
   const keyword = safeText(searchInput ? searchInput.value : '').toLowerCase();
@@ -951,7 +938,6 @@ function filterAndRender(){
   renderGrid(list);
 }
 
-/* 初始化 */
 async function init(){
   const vendors = await loadVendors();
 
@@ -972,7 +958,6 @@ async function init(){
   filterAndRender();
 }
 
-/* 事件绑定 */
 (function bindEvents(){
   const searchInput = document.getElementById('searchInput');
   const refreshBtn = document.getElementById('refreshBtn');
@@ -1016,7 +1001,6 @@ async function init(){
   }
 })();
 
-/* 启动 */
 init();
 </script>
 </body>

@@ -513,9 +513,9 @@
     "name": "FunTaGaming",
     "type": "Slot",
     "logo": "logos/funta-gaming_logo_01_7.png",
-    "openDemo": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.funta-gaming.com/",
     "showCard": false,
-    "demoUrl": "https://www.thebestslot.nu/product",
+    "demoUrl": "https://www.funta-gaming.com/",
     "needsPassword": false,
     "passwordNote": ""
   },
@@ -553,9 +553,9 @@
     "name": "HacksawGaming",
     "type": "Slot",
     "logo": "logos/2.Hacksaw Logo_White.png",
-    "openDemo": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.hacksawgaming.com/",
     "showCard": false,
-    "demoUrl": "https://www.thebestslot.nu/product",
+    "demoUrl": "https://www.hacksawgaming.com/",
     "needsPassword": false,
     "passwordNote": ""
   },
@@ -598,16 +598,6 @@
     "demoUrl": "https://www.jokerzone68.com/",
     "needsPassword": false,
     "passwordNote": ""
-  },
-  {
-    "name": "JJ",
-    "type": "Slot",
-    "logo": "logos/JJ.png",
-    "openDemo": "http://demo.awcgames.club/",
-    "showCard": true,
-    "demoUrl": "http://demo.awcgames.club/",
-    "needsPassword": true,
-    "passwordNote": "thb88888"
   },
   {
     "name": "KA Gaming",
@@ -703,8 +693,8 @@
     "name": "PeterSons",
     "type": "Slot",
     "logo": "logos/SYMBOL-AND-LOGO_VERTICAL_White.png",
-    "openDemo": "https://www.thebestslot.nu/product",
-    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://peterandsonsgames.com/games",
+    "demoUrl": "https://peterandsonsgames.com/games",
     "showCard": false,
     "needsPassword": false,
     "passwordNote": ""
@@ -1273,8 +1263,8 @@
   "name": "Ezugi",
   "type": "Live",
   "logo": "logos/6.Ezugi Logo_Light.png",
-  "openDemo": "https://www.thebestslot.nu/product",
-  "demoUrl": "https://www.thebestslot.nu/product",
+  "openDemo": "https://www.ezugi.com/all-games",
+  "demoUrl": "https://www.ezugi.com/all-games",
   "showCard": false,
   "needsPassword": false,
   "passwordNote": ""

@@ -18,6 +18,7 @@
       --border:rgba(255,255,255,0.06);
       --glow:0 10px 30px rgba(0,245,224,0.10);
       --shadow:0 18px 50px rgba(0,0,0,0.45);
+      --success:#7dffb3;
     }
 
     *{
@@ -40,6 +41,14 @@
     a{
       color:inherit;
       text-decoration:none;
+    }
+
+    mark{
+      background:rgba(0,245,224,0.16);
+      color:#cffff9;
+      padding:0 .18em;
+      border-radius:6px;
+      box-shadow:0 0 0 1px rgba(0,245,224,0.08) inset;
     }
 
     .wrap{
@@ -273,7 +282,7 @@
         var(--card);
       padding:18px 16px 16px;
       border-radius:20px;
-      border:1px solid rgba(255,255,255,0.05);
+      border:1px solid rgba(255,255,255,0.04);
       transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
       display:flex;
       flex-direction:column;
@@ -281,7 +290,7 @@
       min-height:282px;
       position:relative;
       overflow:hidden;
-      box-shadow:0 12px 30px rgba(0,0,0,0.22);
+      box-shadow:0 8px 20px rgba(0,0,0,0.18);
     }
 
     .card::before{
@@ -336,6 +345,12 @@
       max-width:100%;
       max-height:100%;
       display:block;
+      transition:transform .22s ease, filter .22s ease;
+    }
+
+    .card:hover .logo-wrap img{
+      transform:scale(1.035);
+      filter:brightness(1.04);
     }
 
     .title{
@@ -346,6 +361,10 @@
       font-size:17px;
       line-height:1.35;
       letter-spacing:.1px;
+      min-height:46px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
     }
 
     .type{
@@ -363,6 +382,12 @@
       max-width:100%;
       word-break:break-word;
       box-shadow:0 8px 18px rgba(0,245,224,0.05);
+    }
+
+    .type.type-multi{
+      color:#9feee7;
+      background:rgba(0,245,224,0.045);
+      border:1px solid rgba(0,245,224,0.09);
     }
 
     .footer{
@@ -401,8 +426,9 @@
     }
 
     .demo-btn:not(.glow){
-      background:linear-gradient(180deg,#14181d,#0d1116);
-      color:#dce3e7;
+      background:linear-gradient(180deg,#11161b,#0c1014);
+      color:#cfd6da;
+      border:1px solid rgba(255,255,255,0.06);
     }
 
     .modal{
@@ -507,6 +533,11 @@
       border-radius:14px;
       padding:11px 12px;
       box-shadow:inset 0 1px 0 rgba(255,255,255,0.02);
+      transition:color .15s ease, border-color .15s ease;
+    }
+
+    .cred-value.is-muted{
+      color:#889197;
     }
 
     .cred-actions{
@@ -525,12 +556,20 @@
       cursor:pointer;
       transition:all .15s ease;
       font-weight:600;
+      min-width:102px;
     }
 
     .small-btn:hover{
       color:#fff;
       border-color:rgba(0,245,224,0.16);
       transform:translateY(-1px);
+    }
+
+    .small-btn.copied{
+      color:#042015;
+      background:linear-gradient(180deg,#90ffd0,#66f2b1);
+      border-color:rgba(125,255,179,0.35);
+      box-shadow:0 10px 24px rgba(125,255,179,0.16);
     }
 
     .empty-state{
@@ -650,6 +689,7 @@ const CATEGORY_ORDER = ['All','Slot','Live','Sport','Fishing','Card','Lottery','
 let ALL_VENDORS = [];
 let ACTIVE_CATEGORY = 'All';
 let CURRENT_CRED = { username: '', password: '' };
+let LAST_KEYWORD = '';
 
 async function loadVendors(){
   try {
@@ -667,6 +707,29 @@ async function loadVendors(){
 function safeText(value, fallback = ''){
   if(value === null || value === undefined) return fallback;
   return String(value).trim();
+}
+
+function escapeHtml(str){
+  return safeText(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+function escapeRegExp(str){
+  return safeText(str).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function highlightText(text, keyword){
+  const rawText = safeText(text);
+  const rawKeyword = safeText(keyword);
+
+  if (!rawKeyword) return escapeHtml(rawText);
+
+  const regex = new RegExp(`(${escapeRegExp(rawKeyword)})`, 'ig');
+  return escapeHtml(rawText).replace(regex, '<mark>$1</mark>');
 }
 
 function formatTypeLabel(type){
@@ -697,45 +760,10 @@ function parseCredentialInfo(v){
     };
   }
 
-  const note = rawNote;
-
-  const patterns = [
-    /^(?<username>[^\/\s]+)\/(?<password>.+)$/i,
-    /^A:(?<username>[^\/]+)\/P:(?<password>.+)$/i,
-    /帳號[:：]?\s*(?<username>\S+)\s*密碼[:：]?\s*(?<password>\S+)/i,
-    /帐号[:：]?\s*(?<username>\S+)\s*密码[:：]?\s*(?<password>\S+)/i,
-    /用户名[:：]?\s*(?<username>\S+)\s*密码[:：]?\s*(?<password>\S+)/i,
-    /username\s*[:：]?\s*(?<username>\S+)\s*password\s*[:：]?\s*(?<password>\S+)/i,
-    /user\s*[:：]?\s*(?<username>\S+)\s*password\s*[:：]?\s*(?<password>\S+)/i,
-    /account\s*[:：]?\s*(?<username>\S+)\s*\/?\s*password\s*[:：]?\s*(?<password>\S+)/i,
-    /login id\s*[:：]?\s*(?<username>\S+)\s*\/\s*password\s*[:：]?\s*(?<password>\S+)/i
-  ];
-
-  for (const pattern of patterns) {
-    const match = note.match(pattern);
-    if (match && match.groups) {
-      return {
-        username: safeText(match.groups.username, '未提供'),
-        password: safeText(match.groups.password, '未提供'),
-        note: note
-      };
-    }
-  }
-
-  const singleTokenPattern = /^[A-Za-z0-9@#$%^&*._!+=?-]+$/;
-
-  if (singleTokenPattern.test(note)) {
-    return {
-      username: '未提供',
-      password: note,
-      note: note
-    };
-  }
-
   return {
-    username: '未提供',
-    password: '未提供',
-    note: note
+    username: v.needsPassword ? '未提供' : '不需要',
+    password: v.needsPassword ? '未提供' : '不需要',
+    note: rawNote || '-'
   };
 }
 
@@ -767,6 +795,18 @@ function renderCategories(vendors){
   });
 }
 
+function setCredValue(el, value){
+  if (!el) return;
+  const finalValue = safeText(value, '-');
+  el.textContent = finalValue;
+
+  if (finalValue === '未提供' || finalValue === '不需要' || finalValue === '-') {
+    el.classList.add('is-muted');
+  } else {
+    el.classList.remove('is-muted');
+  }
+}
+
 function openCredModal(v){
   const modal = document.getElementById('credModal');
   if (!modal) return;
@@ -783,10 +823,11 @@ function openCredModal(v){
   const noteEl = document.getElementById('modalNote');
 
   if (vendorNameEl) vendorNameEl.textContent = `${safeText(v.name, 'Vendor')} 顯示`;
-  if (needsPasswordEl) needsPasswordEl.textContent = v.needsPassword ? '需要' : '不需要';
-  if (usernameEl) usernameEl.textContent = v.needsPassword ? parsed.username : '不需要';
-  if (passwordEl) passwordEl.textContent = v.needsPassword ? parsed.password : '不需要';
-  if (noteEl) noteEl.textContent = parsed.note || '-';
+
+  setCredValue(needsPasswordEl, v.needsPassword ? '需要' : '不需要');
+  setCredValue(usernameEl, v.needsPassword ? parsed.username : '不需要');
+  setCredValue(passwordEl, v.needsPassword ? parsed.password : '不需要');
+  setCredValue(noteEl, parsed.note || '-');
 
   modal.classList.remove('hidden');
   modal.setAttribute('aria-hidden', 'false');
@@ -800,16 +841,26 @@ function closeCredModal(){
   modal.setAttribute('aria-hidden', 'true');
 }
 
-async function copyText(text){
+async function copyText(text, button, defaultLabel){
   const value = safeText(text);
-  if (!value || value === '未提供' || value === '不需要') {
+  if (!value || value === '未提供' || value === '不需要' || value === '-') {
     alert('沒有可複製的內容');
     return;
   }
 
   try {
     await navigator.clipboard.writeText(value);
-    alert('已複製');
+
+    if (button) {
+      const original = defaultLabel || button.textContent;
+      button.textContent = '✓ 已複製';
+      button.classList.add('copied');
+
+      setTimeout(() => {
+        button.textContent = original;
+        button.classList.remove('copied');
+      }, 1200);
+    }
   } catch (e) {
     console.error('[copy error]', e);
     alert('複製失敗，請手動複製');
@@ -845,11 +896,15 @@ function makeCard(v){
 
   const title = document.createElement('div');
   title.className = 'title';
-  title.textContent = safeText(v.name, 'Unnamed Vendor');
+  title.innerHTML = highlightText(v.name, LAST_KEYWORD);
 
   const type = document.createElement('div');
   type.className = 'type';
-  type.textContent = formatTypeLabel(v.type);
+  const typeLabel = formatTypeLabel(v.type);
+  type.textContent = typeLabel;
+  if (typeLabel === 'Multi Category') {
+    type.classList.add('type-multi');
+  }
 
   const footer = document.createElement('div');
   footer.className = 'footer';
@@ -915,6 +970,7 @@ function renderGrid(list){
 function filterAndRender(){
   const searchInput = document.getElementById('searchInput');
   const keyword = safeText(searchInput ? searchInput.value : '').toLowerCase();
+  LAST_KEYWORD = keyword;
 
   let list = ALL_VENDORS.slice();
 
@@ -945,6 +1001,8 @@ async function init(){
       logo: safeText(v.logo, 'logos/placeholder.jpg'),
       openDemo: safeText(v.openDemo),
       demoUrl: safeText(v.demoUrl),
+      username: safeText(v.username),
+      password: safeText(v.password),
       passwordNote: safeText(v.passwordNote),
       needsPassword: Boolean(v.needsPassword)
     };
@@ -989,11 +1047,15 @@ async function init(){
   });
 
   if (copyUsernameBtn) {
-    copyUsernameBtn.addEventListener('click', () => copyText(CURRENT_CRED.username));
+    copyUsernameBtn.addEventListener('click', () => {
+      copyText(CURRENT_CRED.username, copyUsernameBtn, '複製帳號');
+    });
   }
 
   if (copyPasswordBtn) {
-    copyPasswordBtn.addEventListener('click', () => copyText(CURRENT_CRED.password));
+    copyPasswordBtn.addEventListener('click', () => {
+      copyText(CURRENT_CRED.password, copyPasswordBtn, '複製密碼');
+    });
   }
 })();
 

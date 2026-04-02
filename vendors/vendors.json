@@ -27,7 +27,7 @@
   "showCard": false,
   "demoUrl": "https://www.368connect.net/mem/sportsbook.aspx",
   "needsPassword": true,
-  "passwordNote": "aetest / Abcd1234"
+  "passwordNote": "aetest/Abcd1234"
 },
   {
   "name": "UG",
@@ -237,7 +237,7 @@
     "openDemo": "https://www.superspadegames.com/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "帐号 Testuser 密码 Test@123"
+    "passwordNote": "Testuser/Test@123"
   },
   {
     "name": "TADA",
@@ -737,7 +737,7 @@
     "demoUrl": "http://www.agdragon.cc/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "帳號VVIPTEST 密碼123123"
+    "passwordNote": "VVIPTEST/123123"
   },   
   {
     "name": "YL",
@@ -817,7 +817,7 @@
     "showCard": false,
     "demoUrl": "https://www.tcgsea.com/",
     "needsPassword": true,
-    "passwordNote": "用户名: demo01密码: yrqxneau"
+    "passwordNote": "demo01/yrqxneau"
   },
   {
     "name": "世彩 GW",
@@ -1107,7 +1107,7 @@
   "demoUrl": "https://www.superspadegames.com/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "帐号 Testuser / 密码 Test@123"
+  "passwordNote": "Testuser/Test@123"
 },
 {
   "name": "ViA Casino",
@@ -1197,7 +1197,7 @@
   "demoUrl": "https://tfesports.net/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": " username : tfdemo01 password: jhpnm1"
+  "passwordNote": "tfdemo01/jhpnm1"
 },
 {
   "name": "AOG",
@@ -1237,7 +1237,7 @@
   "demoUrl": "http://digmaan.co/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "Login id:dm234 / password: AAAA1111"
+  "passwordNote": "dm234/AAAA1111"
 },      
 {
   "name": "E1SPORT",
@@ -1277,7 +1277,7 @@
   "demoUrl": "https://client.credit28.com/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "demok7 / Demo1234$"
+  "passwordNote": "demok7/Demo1234$"
 },      
 {
   "name": "HOTROAD",
@@ -1297,7 +1297,7 @@
   "demoUrl": "https://imdemo.inplaymatrix.com/home/login",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "Account: imdemoen01/Password: asdf1234"
+  "passwordNote": "imdemoen01/asdf1234"
 },      
 {
   "name": "Jollysport",
@@ -1377,7 +1377,7 @@
   "demoUrl": "http://odingamecock.com/",
   "showCard": true,
   "needsPassword": true,
-  "passwordNote": "Account: odingc03 / Password: Cf888888"
+  "passwordNote": "odingc03/Cf888888"
 },      
 {
   "name": "Ongaming",

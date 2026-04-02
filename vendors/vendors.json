@@ -1,5 +1,5 @@
 [
-{
+  {
     "name": "AFB",
     "type": "Sport",
     "logo": "logos/AFB.png",
@@ -7,7 +7,9 @@
     "showCard": false,
     "demoUrl": "https://afbdemo.com/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "DB",
@@ -17,38 +19,46 @@
     "showCard": true,
     "demoUrl": "https://www.dbgaming.com/",
     "needsPassword": true,
-    "passwordNote": "business07/zxc654321"
-  },  
-{
-  "name": "CMDBET",
-  "type": "Sport",
-  "logo": "logos/CMD.png",
-  "openDemo": "https://www.368connect.net/mem/sportsbook.aspx",
-  "showCard": false,
-  "demoUrl": "https://www.368connect.net/mem/sportsbook.aspx",
-  "needsPassword": true,
-  "passwordNote": "aetest/Abcd1234"
-},
+    "passwordNote": "",
+    "username": "business07",
+    "password": "zxc654321"
+  },
   {
-  "name": "UG",
-  "type": "Sport",
-  "logo": "logos/UG.png",
-  "openDemo": "https://demo.unitedgaming.com/",
-  "showCard": false,
-  "demoUrl": "https://demo.unitedgaming.com/",
-  "needsPassword": false,
-  "passwordNote": ""
-},
+    "name": "CMDBET",
+    "type": "Sport",
+    "logo": "logos/CMD.png",
+    "openDemo": "https://www.368connect.net/mem/sportsbook.aspx",
+    "showCard": false,
+    "demoUrl": "https://www.368connect.net/mem/sportsbook.aspx",
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "aetest"
+  },
   {
-  "name": "FBSPORTS",
-  "type": "Sport",
-  "logo": "logos/FBsports.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "showCard": true,
-  "demoUrl": "http://demo.awcgames.club/",
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},
+    "name": "UG",
+    "type": "Sport",
+    "logo": "logos/UG.png",
+    "openDemo": "https://demo.unitedgaming.com/",
+    "showCard": false,
+    "demoUrl": "https://demo.unitedgaming.com/",
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "FBSPORTS",
+    "type": "Sport",
+    "logo": "logos/FBsports.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "demoUrl": "http://demo.awcgames.club/",
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
   {
     "name": "BTG",
     "type": "Slot",
@@ -57,7 +67,9 @@
     "openDemo": "http://btgaming.com/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Bunfox",
@@ -67,7 +79,9 @@
     "openDemo": "https://www.qoragames.com/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Booming",
@@ -77,7 +91,9 @@
     "openDemo": "https://booming-games.com/games",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "CG",
@@ -87,7 +103,9 @@
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "JILI",
@@ -97,7 +115,9 @@
     "openDemo": "https://jiligames.com/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "CRASH88",
@@ -107,7 +127,9 @@
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "Radi8",
@@ -117,7 +139,9 @@
     "openDemo": "https://www.qoragames.com/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "RedTiger",
@@ -127,17 +151,21 @@
     "openDemo": "https://redtiger.com/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Relax",
     "type": "Slot",
     "logo": "logos/RELAX.png",
-    "demoUrl": "https://www.relax-gaming.com/",
-    "openDemo": "https://www.relax-gaming.com/",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "RiCH88",
@@ -147,17 +175,21 @@
     "openDemo": "https://demo.rich88games.com/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "RTG",
     "type": "Slot",
     "logo": "logos/RTG.png",
-    "demoUrl": "https://rtgslots.com/",
-    "openDemo": "https://rtgslots.com/",
+    "demoUrl": "https://demo-a.rt-services.co/index.html?lang=en&showRoom=1",
+    "openDemo": "https://demo-a.rt-services.co/index.html?lang=en&showRoom=1",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "SEA Gaming",
@@ -167,7 +199,9 @@
     "openDemo": "https://www.sagaming.com/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "SimplePlay",
@@ -177,27 +211,33 @@
     "openDemo": "http://simpleplay.com/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Smartsoft",
     "type": "Slot",
     "logo": "logos/Smartsoft.png",
-    "demoUrl": "https://www.smartsoftgaming.com/",
-    "openDemo": "https://www.smartsoftgaming.com/",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Slotmill",
     "type": "Slot",
     "logo": "logos/10.Slotmill Logo_premium-all-white.png",
-    "demoUrl": "https://slotmill.com/",
-    "openDemo": "https://slotmill.com/",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "SpadeGaming",
@@ -207,7 +247,9 @@
     "openDemo": "http://sgslot.com/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "SplusGaming",
@@ -217,17 +259,21 @@
     "openDemo": "http://www.splus.games/demo",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "SPRIBE",
     "type": "Slot",
     "logo": "logos/SPRIBE.png",
-    "demoUrl": "https://spribe.co/games",
-    "openDemo": "https://spribe.co/games",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "SuperSpade",
@@ -237,7 +283,9 @@
     "openDemo": "https://www.superspadegames.com/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "Testuser/Test@123"
+    "passwordNote": "",
+    "username": "Testuser",
+    "password": "Test@123"
   },
   {
     "name": "TADA",
@@ -247,7 +295,9 @@
     "openDemo": "https://tadagaming.com/PlusTrial/32/en-US",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "ThunderKick",
@@ -257,7 +307,9 @@
     "openDemo": "https://www.thunderkick.com/games/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "TP",
@@ -267,7 +319,9 @@
     "openDemo": "https://www.topplayer888.com/tp/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "TTG",
@@ -277,7 +331,9 @@
     "openDemo": "https://www.toptrendgaming.com/games",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Turbo",
@@ -287,7 +343,9 @@
     "openDemo": "https://turbogames.io/game/chickenroute",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "VA Gaming",
@@ -297,7 +355,9 @@
     "openDemo": "https://www.va-game.com/hk",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "VG",
@@ -307,27 +367,33 @@
     "openDemo": "https://91vgames.com/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Voltent",
     "type": "Slot",
     "logo": "logos/2.Wazdan Logo_White.png",
-    "demoUrl": "https://voltent.com/#sectionGames",
-    "openDemo": "https://voltent.com/#sectionGames",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Winfast",
     "type": "Slot",
     "logo": "logos/WINFAST.png",
-    "demoUrl": "https://win-fast.games/#GAME",
-    "openDemo": "https://win-fast.games/#GAME",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "XIN",
@@ -337,17 +403,21 @@
     "openDemo": "https://docs.infopa.cc/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Yggdrasil",
     "type": "Slot",
     "logo": "logos/YGGDRASIL.png",
-    "demoUrl": "https://yggdrasilgaming.com/games",
-    "openDemo": "https://yggdrasilgaming.com/games",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Yolted",
@@ -357,7 +427,9 @@
     "openDemo": "https://www.yolted.com/games",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Yoplay",
@@ -367,7 +439,9 @@
     "openDemo": "https://docs.infopa.cc/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "AdvantPlay",
@@ -377,27 +451,33 @@
     "showCard": false,
     "demoUrl": "https://fun.dgkqzfhi.com/web/fun/funplay?game=10076",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "7Mojos",
     "type": "Slot,Live Casino",
     "logo": "logos/7Mojos.png",
-    "openDemo": "https://www.7mojos.com/",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
-    "demoUrl": "https://www.7mojos.com/",
+    "demoUrl": "https://www.thebestslot.nu/product",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "AvatarUX",
     "type": "Slot",
     "logo": "logos/AUX.png",
-    "openDemo": "https://avatarux.com/",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
-    "demoUrl": "https://avatarux.com/",
+    "demoUrl": "https://www.thebestslot.nu/product",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Aviatrix",
@@ -407,7 +487,9 @@
     "showCard": false,
     "demoUrl": "https://www.aviatrix.bet/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "BBIN",
@@ -417,7 +499,9 @@
     "showCard": false,
     "demoUrl": "https://docs.google.com/spreadsheets/d/1vgiAK04mtb-iUYrBqAGWqPN_bmR_Fqe4Fp50IpTP9Es/edit?usp=sharing",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Blueprint",
@@ -427,7 +511,9 @@
     "showCard": false,
     "demoUrl": "https://blueprintgaming.com/games",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "BGaming",
@@ -437,7 +523,9 @@
     "showCard": false,
     "demoUrl": "https://bgaming.com/games/snoop-dogg-dollars",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "BNG",
@@ -447,7 +535,9 @@
     "showCard": false,
     "demoUrl": "https://asia.bng.games/games/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "DRAGOONSOFT",
@@ -457,27 +547,33 @@
     "showCard": true,
     "demoUrl": "http://demo.awcgames.club/",
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "EVOPLAY",
     "type": "Slot",
     "logo": "logos/2.Evoplay Logo.png",
-    "openDemo": "https://evoplay.games/games/",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
-    "demoUrl": "https://evoplay.games/games/",
+    "demoUrl": "https://www.thebestslot.nu/product",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "FAST_SPIN",
     "type": "Slot",
     "logo": "logos/FS-03.png",
-    "openDemo": "https://www.fast-spin.com/games",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
-    "demoUrl": "https://www.fast-spin.com/games",
+    "demoUrl": "https://www.thebestslot.nu/product",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "FC发财电子",
@@ -487,7 +583,9 @@
     "showCard": false,
     "demoUrl": "https://fachaigaming.com/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "FIVEG",
@@ -497,27 +595,33 @@
     "showCard": true,
     "demoUrl": "http://demo.awcgames.club/",
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "Fantasma",
     "type": "Slot",
     "logo": "logos/Fantasma 2.png",
-    "openDemo": "https://www.fantasmagames.com/#games",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
-    "demoUrl": "https://www.fantasmagames.com/#games",
+    "demoUrl": "https://www.thebestslot.nu/product",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "FunTaGaming",
     "type": "Slot",
     "logo": "logos/funta-gaming_logo_01_7.png",
-    "openDemo": "https://www.funta-gaming.com/",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
-    "demoUrl": "https://www.funta-gaming.com/",
+    "demoUrl": "https://www.thebestslot.nu/product",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "GB电子",
@@ -527,7 +631,9 @@
     "showCard": false,
     "demoUrl": "https://gbgames.cc/demo/#/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "GNS",
@@ -537,7 +643,9 @@
     "showCard": false,
     "demoUrl": "https://www.qoragames.com/about-qora/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "GTF",
@@ -547,17 +655,21 @@
     "showCard": true,
     "demoUrl": "http://demo.awcgames.club/",
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "HacksawGaming",
     "type": "Slot",
     "logo": "logos/2.Hacksaw Logo_White.png",
-    "openDemo": "https://www.hacksawgaming.com/",
+    "openDemo": "https://www.thebestslot.nu/product",
     "showCard": false,
-    "demoUrl": "https://www.hacksawgaming.com/",
+    "demoUrl": "https://www.thebestslot.nu/product",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "HB",
@@ -567,7 +679,9 @@
     "showCard": false,
     "demoUrl": "https://haba88.com/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "ILOVEU",
@@ -577,7 +691,9 @@
     "showCard": true,
     "demoUrl": "http://demo.awcgames.club/",
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "JDB",
@@ -587,7 +703,9 @@
     "showCard": false,
     "demoUrl": "https://www.jdbgaming.com/en/games/list",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Joker",
@@ -597,7 +715,21 @@
     "showCard": false,
     "demoUrl": "https://www.jokerzone68.com/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "JJ",
+    "type": "Slot",
+    "logo": "logos/JJ.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "showCard": true,
+    "demoUrl": "http://demo.awcgames.club/",
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "KA Gaming",
@@ -607,7 +739,9 @@
     "showCard": false,
     "demoUrl": "https://www.kaga88.com/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "LGD",
@@ -617,7 +751,9 @@
     "demoUrl": "http://play.dreamtech8.com/testgame/index.html",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "MGPlus",
@@ -627,7 +763,9 @@
     "demoUrl": "https://www.mgasia.com/#/zh-CN",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "A:Daotech_1/P:xMXRwZTlla"
+    "passwordNote": "",
+    "username": "Daotech_1",
+    "password": "xMXRwZTlla"
   },
   {
     "name": "Netent",
@@ -637,7 +775,9 @@
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "Nextspin",
@@ -647,7 +787,9 @@
     "demoUrl": "https://nextspin.com/game",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "NoLimitCity",
@@ -657,7 +799,9 @@
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "Novomatic",
@@ -667,7 +811,9 @@
     "demoUrl": "https://www.novomatic.com/en/games-0",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "OCtoplay",
@@ -677,7 +823,9 @@
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "PlaynGO",
@@ -687,17 +835,21 @@
     "demoUrl": "http://www.playngo.com/games",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "PeterSons",
     "type": "Slot",
     "logo": "logos/SYMBOL-AND-LOGO_VERTICAL_White.png",
-    "openDemo": "https://peterandsonsgames.com/games",
-    "demoUrl": "https://peterandsonsgames.com/games",
+    "openDemo": "https://www.thebestslot.nu/product",
+    "demoUrl": "https://www.thebestslot.nu/product",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Play8",
@@ -707,7 +859,9 @@
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "Playstar",
@@ -717,7 +871,9 @@
     "demoUrl": "https://www.playstar.net/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "PP",
@@ -727,7 +883,9 @@
     "demoUrl": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "PT",
@@ -737,8 +895,10 @@
     "demoUrl": "http://www.agdragon.cc/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "VVIPTEST/123123"
-  },   
+    "passwordNote": "",
+    "username": "VVIPTEST",
+    "password": "123123"
+  },
   {
     "name": "YL",
     "type": "Fishing",
@@ -747,7 +907,9 @@
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "YellowBat",
@@ -757,7 +919,9 @@
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "KA Gaming",
@@ -767,7 +931,9 @@
     "openDemo": "https://www.kaga88.com/",
     "showCard": false,
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "King midas",
@@ -777,7 +943,9 @@
     "openDemo": "http://demo.awcgames.club/",
     "showCard": true,
     "needsPassword": true,
-    "passwordNote": "thb88888"
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
   },
   {
     "name": "168Games",
@@ -787,7 +955,9 @@
     "showCard": false,
     "demoUrl": "https://demo.cqgame.games/Home",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "365棋牌",
@@ -797,7 +967,9 @@
     "showCard": false,
     "demoUrl": "https://py324.gs365cr.net/player/demoWeb.jsp",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "3Sing (三昇)",
@@ -807,7 +979,9 @@
     "showCard": false,
     "demoUrl": "http://3s.uv128.com/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "天成TCG",
@@ -817,7 +991,9 @@
     "showCard": false,
     "demoUrl": "https://www.tcgsea.com/",
     "needsPassword": true,
-    "passwordNote": "demo01/yrqxneau"
+    "passwordNote": "",
+    "username": "demo01",
+    "password": "yrqxneau"
   },
   {
     "name": "世彩 GW",
@@ -827,7 +1003,9 @@
     "showCard": false,
     "demoUrl": "https://gworld.gw1238.online",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "凯旋棋牌 KX",
@@ -837,7 +1015,9 @@
     "showCard": false,
     "demoUrl": "https://kx.kocms397.com/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Mpoker (泰国 MP棋牌)",
@@ -847,7 +1027,9 @@
     "showCard": false,
     "demoUrl": "https://mp1.kocms397.com/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "V8 Poker (龙城越南棋牌)",
@@ -857,7 +1039,9 @@
     "showCard": false,
     "demoUrl": "https://v8.kocms397.com/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "博乐 BoleGaming",
@@ -867,7 +1051,9 @@
     "showCard": false,
     "demoUrl": "https://www.bolegaming.com/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "AceWin",
@@ -877,27 +1063,33 @@
     "showCard": false,
     "demoUrl": "https://www.acewingaming.com/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
-   "name": "AceWin",
+    "name": "AceWin",
     "type": "Fishing",
     "logo": "logos/ACEWIN.png",
     "openDemo": "https://www.acewingaming.com/",
     "showCard": false,
     "demoUrl": "https://www.acewingaming.com/",
     "needsPassword": false,
-    "passwordNote": ""  
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
-   "name": "AceWin",
+    "name": "AceWin",
     "type": "Card",
     "logo": "logos/ACEWIN.png",
     "openDemo": "https://www.acewingaming.com/",
     "showCard": false,
     "demoUrl": "https://www.acewingaming.com/",
     "needsPassword": false,
-    "passwordNote": ""  
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "AG",
@@ -907,7 +1099,9 @@
     "showCard": false,
     "demoUrl": "https://docs.infopa.cc/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "AG",
@@ -917,7 +1111,9 @@
     "showCard": false,
     "demoUrl": "https://docs.infopa.cc/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "AG",
@@ -927,7 +1123,9 @@
     "showCard": false,
     "demoUrl": "https://docs.infopa.cc/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
     "name": "Allbet 欧博",
@@ -937,524 +1135,596 @@
     "showCard": false,
     "demoUrl": "https://www.ab99.games/?l=t#/",
     "needsPassword": false,
-    "passwordNote": ""
+    "passwordNote": "",
+    "username": "",
+    "password": ""
   },
   {
-  "name": "BTG",
-  "type": "Fishing",
-  "logo": "logos/BTG.png",
-  "openDemo": "http://btgaming.com/",
-  "demoUrl": "http://btgaming.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "CQ9",
-  "type": "Fishing",
-  "logo": "logos/CQ9.png",
-  "openDemo": "https://demo.cqgame.games/Home",
-  "demoUrl": "https://demo.cqgame.games/Home",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "RSG",
-  "type": "Fishing",
-  "logo": "logos/RSG.png",
-  "openDemo": "https://www.rsg-games.com/zh-TW/",
-  "demoUrl": "https://www.rsg-games.com/zh-TW/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "Simple Play",
-  "type": "Fishing",
-  "logo": "logos/Simple.png",
-  "openDemo": "http://simpleplay.com/",
-  "demoUrl": "http://simpleplay.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "Spade Gaming",
-  "type": "Fishing",
-  "logo": "logos/SPADE.png",
-  "openDemo": "http://sgslot.com/",
-  "demoUrl": "http://sgslot.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "YL",
-  "type": "Fishing",
-  "logo": "logos/YL.png",
-  "openDemo": "https://demo0hq.ylgaming.net/",
-  "demoUrl": "https://demo0hq.ylgaming.net/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "YellowBat",
-  "type": "Fishing",
-  "logo": "logos/YELLOWBAT.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},
-{
-  "name": "CQ9",
-  "type": "Card",
-  "logo": "logos/CQ9.png",
-  "openDemo": "https://demo.cqgame.games/Home",
-  "demoUrl": "https://demo.cqgame.games/Home",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "RiCH88",
-  "type": "Card",
-  "logo": "logos/avatar.png",
-  "openDemo": "https://demo.rich88games.com/",
-  "demoUrl": "https://demo.rich88games.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "Spade Gaming",
-  "type": "Card",
-  "logo": "logos/SPADE.png",
-  "openDemo": "http://sgslot.com/",
-  "demoUrl": "http://sgslot.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "TADA",
-  "type": "Card",
-  "logo": "logos/tadalogo_2.png",
-  "openDemo": "https://tadagaming.com/PlusTrial/32/en-US",
-  "demoUrl": "https://tadagaming.com/PlusTrial/32/en-US",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "CQ9 Motivation",
-  "type": "Live",
-  "logo": "logos/CQ9.png",
-  "openDemo": "https://demo.cqgame.games/Home",
-  "demoUrl": "https://demo.cqgame.games/Home",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "RSG",
-  "type": "Live",
-  "logo": "logos/RSG.png",
-  "openDemo": "https://www.rsg-games.com/zh-TW/",
-  "demoUrl": "https://www.rsg-games.com/zh-TW/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "ROYALGAMING",
-  "type": "Live",
-  "logo": "logos/royalgaming.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},
-{
-  "name": "SA Gaming",
-  "type": "Live",
-  "logo": "logos/SA_Gaming.png",
-  "openDemo": "https://www.sagaming.com/",
-  "demoUrl": "https://www.sagaming.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "Sexy",
-  "type": "Live",
-  "logo": "logos/SEXYBCRT.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},
-{
-  "name": "Super Spade",
-  "type": "Live",
-  "logo": "logos/Superspade.png",
-  "openDemo": "https://www.superspadegames.com/",
-  "demoUrl": "https://www.superspadegames.com/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "Testuser/Test@123"
-},
-{
-  "name": "ViA Casino",
-  "type": "Live",
-  "logo": "logos/VIACASINO.png",
-  "openDemo": "http://via-casino.com/",
-  "demoUrl": "http://via-casino.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "WINFINITY",
-  "type": "Live",
-  "logo": "logos/WINFINITY.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},
-{
-  "name": "WM",
-  "type": "Live",
-  "logo": "logos/WM.png",
-  "openDemo": "http://wm555.net/",
-  "demoUrl": "http://wm555.net/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "CREEDROOMZ",
-  "type": "Live",
-  "logo": "logos/CREEDROOMZ.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},
-{
-  "name": "Skycasino",
-  "type": "Live",
-  "logo": "logos/sky.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},
-{
-  "name": "VR GAMING",
-  "type": "Lottery",
-  "logo": "logos/VRLOTTO.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},
-{
-  "name": "YellowBat",
-  "type": "Lottery",
-  "logo": "logos/YELLOWBAT.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},
-{
-  "name": "RCB",
-  "type": "Horse Racing",
-  "logo": "logos/HORSEBOOK.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},
-{
-  "name": "TFGaming",
-  "type": "Esport",
-  "logo": "logos/TF.png",
-  "openDemo": "https://tfesports.net/",
-  "demoUrl": "https://tfesports.net/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "tfdemo01/jhpnm1"
-},
-{
-  "name": "AOG",
-  "type": "Cockfight",
-  "logo": "logos/K36.png",
-  "openDemo": "https://devgame.wgb168.com/player?game_code=COCKFIGHT01",
-  "demoUrl": "https://devgame.wgb168.com/player?game_code=COCKFIGHT01",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "BGaming",
-  "type": "Fishing",
-  "logo": "logos/BG.png",
-  "openDemo": "http://www.bg789.com/",
-  "demoUrl": "http://www.bg789.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},    
-{
-  "name": "DG (DreamGaming)",
-  "type": "Live",
-  "logo": "logos/DG.png",
-  "openDemo": "https://new-dd-cn.ahsy114.com/ddnewpc/direct1.html?token=d4dcec276e98450ca364b0a59b6b81ed&language=cn",
-  "demoUrl": "https://new-dd-cn.ahsy114.com/ddnewpc/direct1.html?token=d4dcec276e98450ca364b0a59b6b81ed&language=cn",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},
-{
-  "name": "DIGMAAN ",
-  "type": "Cockfight",
-  "logo": "logos/Digmaan.png",
-  "openDemo": "http://digmaan.co/",
-  "demoUrl": "http://digmaan.co/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "dm234/AAAA1111"
-},      
-{
-  "name": "E1SPORT",
-  "type": "Esport",
-  "logo": "logos/E1sport.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},      
-{
-  "name": "Evolution Gaming",
-  "type": "logos/K36.png",
-  "logo": "logos/7.evolution_logo_online_white_1000x194.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},      
-{
-  "name": "Ezugi",
-  "type": "Live",
-  "logo": "logos/6.Ezugi Logo_Light.png",
-  "openDemo": "https://www.ezugi.com/all-games",
-  "demoUrl": "https://www.ezugi.com/all-games",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},      
-{
-  "name": "GA28",
-  "type": "Cockfight",
-  "logo": "logos/ga28.png",
-  "openDemo": "https://client.credit28.com/",
-  "demoUrl": "https://client.credit28.com/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "demok7/Demo1234$"
-},      
-{
-  "name": "HOTROAD",
-  "type": "Live",
-  "logo": "logos/Hotroad.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},      
-{
-  "name": "IM (InplayMatrix)",
-  "type": "Sport",
-  "logo": "logos/IM.png",
-  "openDemo": "https://imdemo.inplaymatrix.com/home/login",
-  "demoUrl": "https://imdemo.inplaymatrix.com/home/login",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "imdemoen01/asdf1234"
-},      
-{
-  "name": "Jollysport",
-  "type": "Sport",
-  "logo": "logos/Jolly.png",
-  "openDemo": "https://jollydemo.dui0892.net/",
-  "demoUrl": "https://jollydemo.dui0892.net/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},      
-{
-  "name": "KY开元",
-  "type": "Card",
-  "logo": "logos/KY.png",
-  "openDemo": "https://yl.ishxu648.com/",
-  "demoUrl": "https://yl.ishxu648.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},      
-{
-  "name": "Ladyluck",
-  "type": "Slot",
-  "logo": "logos/Ladyluck.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},
-{
-  "name": "LEG乐游",
-  "type": "Card",
-  "logo": "logos/leg.png",
-  "openDemo": "https://leg.kocms397.com/",
-  "demoUrl": "https://leg.kocms397.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},          
-{
-  "name": "Lucky Poker",
-  "type": "Card",
-  "logo": "logos/Luckypoker.png",
-  "openDemo": "https://mp-vert.kocms397.com/",
-  "demoUrl": "https://mp-vert.kocms397.com/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},      
-{
-  "name": "Lucky Sports",
-  "type": "Sport",
-  "logo": "logos/LuckySports.png",
-  "openDemo": "https://exdemo.uni247.xyz/",
-  "demoUrl": "https://exdemo.uni247.xyz/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},      
-{
-  "name": "LUDO",
-  "type": "Card",
-  "logo": "logos/LudoBet Logo.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},      
-{
-  "name": "Odin Gamecock",
-  "type": "Cockfight",
-  "logo": "logos/K36.png",
-  "openDemo": "http://odingamecock.com/",
-  "demoUrl": "http://odingamecock.com/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "odingc03/Cf888888"
-},      
-{
-  "name": "Ongaming",
-  "type": "Live",
-  "logo": "logos/ongaming.png",
-  "openDemo": "https://demo.oncasino.vip/",
-  "demoUrl": "https://demo.oncasino.vip/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},      
-{
-  "name": "PGSOFT",
-  "type": "Slot",
-  "logo": "logos/PGSOFT.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-},      
-{
-  "name": "Pinnacle平博",
-  "type": "Sports",
-  "logo": "logos/Pinnacle.png",
-  "openDemo": "https://www.theapgaming.com/demo/zh-cn/",
-  "demoUrl": "https://www.theapgaming.com/demo/zh-cn/",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-}, 
-{
-  "name": "ATG",
-  "type": "Slot",
-  "logo": "",
-  "openDemo": "https://atg-games.com/zh-tw",
-  "demoUrl": "https://atg-games.com/zh-tw",
-  "showCard": false,
-  "needsPassword": false,
-  "passwordNote": ""
-},          
-{
-  "name": "SABA",
-  "type": "Sports",
-  "logo": "logos/SABA.png",
-  "openDemo": "http://demo.awcgames.club/",
-  "demoUrl": "http://demo.awcgames.club/",
-  "showCard": true,
-  "needsPassword": true,
-  "passwordNote": "thb88888"
-}   
+    "name": "BTG",
+    "type": "Fishing",
+    "logo": "logos/BTG.png",
+    "openDemo": "http://btgaming.com/",
+    "demoUrl": "http://btgaming.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "CQ9",
+    "type": "Fishing",
+    "logo": "logos/CQ9.png",
+    "openDemo": "https://demo.cqgame.games/Home",
+    "demoUrl": "https://demo.cqgame.games/Home",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "RSG",
+    "type": "Fishing",
+    "logo": "logos/RSG.png",
+    "openDemo": "https://www.rsg-games.com/zh-TW/",
+    "demoUrl": "https://www.rsg-games.com/zh-TW/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "Simple Play",
+    "type": "Fishing",
+    "logo": "logos/Simple.png",
+    "openDemo": "http://simpleplay.com/",
+    "demoUrl": "http://simpleplay.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "Spade Gaming",
+    "type": "Fishing",
+    "logo": "logos/SPADE.png",
+    "openDemo": "http://sgslot.com/",
+    "demoUrl": "http://sgslot.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "YL",
+    "type": "Fishing",
+    "logo": "logos/YL.png",
+    "openDemo": "https://demo0hq.ylgaming.net/",
+    "demoUrl": "https://demo0hq.ylgaming.net/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "YellowBat",
+    "type": "Fishing",
+    "logo": "logos/YELLOWBAT.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "CQ9",
+    "type": "Card",
+    "logo": "logos/CQ9.png",
+    "openDemo": "https://demo.cqgame.games/Home",
+    "demoUrl": "https://demo.cqgame.games/Home",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "RiCH88",
+    "type": "Card",
+    "logo": "logos/avatar.png",
+    "openDemo": "https://demo.rich88games.com/",
+    "demoUrl": "https://demo.rich88games.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "Spade Gaming",
+    "type": "Card",
+    "logo": "logos/SPADE.png",
+    "openDemo": "http://sgslot.com/",
+    "demoUrl": "http://sgslot.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "TADA",
+    "type": "Card",
+    "logo": "logos/tadalogo_2.png",
+    "openDemo": "https://tadagaming.com/PlusTrial/32/en-US",
+    "demoUrl": "https://tadagaming.com/PlusTrial/32/en-US",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "CQ9 Motivation",
+    "type": "Live",
+    "logo": "logos/CQ9.png",
+    "openDemo": "https://demo.cqgame.games/Home",
+    "demoUrl": "https://demo.cqgame.games/Home",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "RSG",
+    "type": "Live",
+    "logo": "logos/RSG.png",
+    "openDemo": "https://www.rsg-games.com/zh-TW/",
+    "demoUrl": "https://www.rsg-games.com/zh-TW/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "ROYALGAMING",
+    "type": "Live",
+    "logo": "logos/royalgaming.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "SA Gaming",
+    "type": "Live",
+    "logo": "logos/SA_Gaming.png",
+    "openDemo": "https://www.sagaming.com/",
+    "demoUrl": "https://www.sagaming.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "Sexy",
+    "type": "Live",
+    "logo": "logos/SEXYBCRT.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "Super Spade",
+    "type": "Live",
+    "logo": "logos/Superspade.png",
+    "openDemo": "https://www.superspadegames.com/",
+    "demoUrl": "https://www.superspadegames.com/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "Testuser",
+    "password": "Test@123"
+  },
+  {
+    "name": "ViA Casino",
+    "type": "Live",
+    "logo": "logos/VIACASINO.png",
+    "openDemo": "http://via-casino.com/",
+    "demoUrl": "http://via-casino.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "WINFINITY",
+    "type": "Live",
+    "logo": "logos/WINFINITY.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "WM",
+    "type": "Live",
+    "logo": "logos/WM.png",
+    "openDemo": "http://wm555.net/",
+    "demoUrl": "http://wm555.net/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "CREEDROOMZ",
+    "type": "Live",
+    "logo": "logos/CREEDROOMZ.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "Skycasino",
+    "type": "Live",
+    "logo": "logos/sky.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "VR GAMING",
+    "type": "Lottery",
+    "logo": "logos/VRLOTTO.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "YellowBat",
+    "type": "Lottery",
+    "logo": "logos/YELLOWBAT.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "RCB",
+    "type": "Horse Racing",
+    "logo": "logos/HORSEBOOK.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "TFGaming",
+    "type": "Esport",
+    "logo": "logos/TF.png",
+    "openDemo": "https://tfesports.net/",
+    "demoUrl": "https://tfesports.net/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "tfdemo01",
+    "password": "jhpnm1"
+  },
+  {
+    "name": "AOG",
+    "type": "Cockfight",
+    "logo": "logos/K36.png",
+    "openDemo": "https://devgame.wgb168.com/player?game_code=COCKFIGHT01",
+    "demoUrl": "https://devgame.wgb168.com/player?game_code=COCKFIGHT01",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "BGaming",
+    "type": "Fishing",
+    "logo": "logos/BG.png",
+    "openDemo": "http://www.bg789.com/",
+    "demoUrl": "http://www.bg789.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "DG (DreamGaming)",
+    "type": "Live",
+    "logo": "logos/DG.png",
+    "openDemo": "https://new-dd-cn.ahsy114.com/ddnewpc/direct1.html?token=d4dcec276e98450ca364b0a59b6b81ed&language=cn",
+    "demoUrl": "https://new-dd-cn.ahsy114.com/ddnewpc/direct1.html?token=d4dcec276e98450ca364b0a59b6b81ed&language=cn",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "DIGMAAN ",
+    "type": "Cockfight",
+    "logo": "logos/Digmaan.png",
+    "openDemo": "http://digmaan.co/",
+    "demoUrl": "http://digmaan.co/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "dm234",
+    "password": "AAAA1111"
+  },
+  {
+    "name": "E1SPORT",
+    "type": "Esport",
+    "logo": "logos/E1sport.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "Evolution Gaming",
+    "type": "logos/K36.png",
+    "logo": "logos/7.evolution_logo_online_white_1000x194.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "Ezugi",
+    "type": "Live",
+    "logo": "logos/6.Ezugi Logo_Light.png",
+    "openDemo": "https://www.thebestslot.nu/product",
+    "demoUrl": "https://www.thebestslot.nu/product",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "GA28",
+    "type": "Cockfight",
+    "logo": "logos/ga28.png",
+    "openDemo": "https://client.credit28.com/",
+    "demoUrl": "https://client.credit28.com/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "demok7",
+    "password": "Demo1234$"
+  },
+  {
+    "name": "HOTROAD",
+    "type": "Live",
+    "logo": "logos/Hotroad.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "IM (InplayMatrix)",
+    "type": "Sport",
+    "logo": "logos/IM.png",
+    "openDemo": "https://imdemo.inplaymatrix.com/home/login",
+    "demoUrl": "https://imdemo.inplaymatrix.com/home/login",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "imdemoen01",
+    "password": "asdf1234"
+  },
+  {
+    "name": "Jollysport",
+    "type": "Sport",
+    "logo": "logos/Jolly.png",
+    "openDemo": "https://jollydemo.dui0892.net/",
+    "demoUrl": "https://jollydemo.dui0892.net/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "KY开元",
+    "type": "Card",
+    "logo": "logos/KY.png",
+    "openDemo": "https://yl.ishxu648.com/",
+    "demoUrl": "https://yl.ishxu648.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "Ladyluck",
+    "type": "Slot",
+    "logo": "logos/Ladyluck.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "LEG乐游",
+    "type": "Card",
+    "logo": "logos/leg.png",
+    "openDemo": "https://leg.kocms397.com/",
+    "demoUrl": "https://leg.kocms397.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "Lucky Poker",
+    "type": "Card",
+    "logo": "logos/Luckypoker.png",
+    "openDemo": "https://mp-vert.kocms397.com/",
+    "demoUrl": "https://mp-vert.kocms397.com/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "Lucky Sports",
+    "type": "Sport",
+    "logo": "logos/LuckySports.png",
+    "openDemo": "https://exdemo.uni247.xyz/",
+    "demoUrl": "https://exdemo.uni247.xyz/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "LUDO",
+    "type": "Card",
+    "logo": "logos/LudoBet Logo.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "Odin Gamecock",
+    "type": "Cockfight",
+    "logo": "logos/K36.png",
+    "openDemo": "http://odingamecock.com/",
+    "demoUrl": "http://odingamecock.com/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "odingc03",
+    "password": "Cf888888"
+  },
+  {
+    "name": "Ongaming",
+    "type": "Live",
+    "logo": "logos/ongaming.png",
+    "openDemo": "https://demo.oncasino.vip/",
+    "demoUrl": "https://demo.oncasino.vip/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "PGSOFT",
+    "type": "Slot",
+    "logo": "logos/PGSOFT.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  },
+  {
+    "name": "Pinnacle平博",
+    "type": "Sports",
+    "logo": "logos/Pinnacle.png",
+    "openDemo": "https://www.theapgaming.com/demo/zh-cn/",
+    "demoUrl": "https://www.theapgaming.com/demo/zh-cn/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "ATG",
+    "type": "Slot",
+    "logo": "",
+    "openDemo": "https://atg-games.com/zh-tw",
+    "demoUrl": "https://atg-games.com/zh-tw",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "name": "SABA",
+    "type": "Sports",
+    "logo": "logos/SABA.png",
+    "openDemo": "http://demo.awcgames.club/",
+    "demoUrl": "http://demo.awcgames.club/",
+    "showCard": true,
+    "needsPassword": true,
+    "passwordNote": "",
+    "username": "",
+    "password": "thb88888"
+  }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-

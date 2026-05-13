@@ -1716,6 +1716,18 @@
     "password": ""
   },
   {
+    "name": "InOut",
+    "type": "Slot",
+    "logo": "logos/InOut.png",
+    "openDemo": "https://inout.games/",
+    "demoUrl": "https://inout.games/",
+    "showCard": false,
+    "needsPassword": false,
+    "passwordNote": "",
+    "username": "",
+    "password": ""
+  },
+  {
     "name": "SABA",
     "type": "Sports",
     "logo": "logos/SABA.png",
